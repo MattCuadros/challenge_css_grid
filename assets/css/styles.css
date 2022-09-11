@@ -1,0 +1,28 @@
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    "navbar navbar navbar navbar navbar"
+    "aside main main main main"
+    "footer footer footer footer footer";
+}
+
+navbar{
+    grid-area: navbar;
+    border: solid #000 1px;
+    min-height: 10vh;
+}
+aside{
+    grid-area: aside;
+    border: solid #000 1px;
+    min-height: 80vh;
+}
+main{
+    grid-area: main;
+    border: solid #000 1px;
+    min-height: 80vh;
+}
+footer{
+    grid-area: footer;
+    border: solid #000 1px;
+    min-height: 10vh;
+}
