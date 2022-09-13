@@ -40,7 +40,7 @@ footer{
 }
 .grid-gallery{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 350px), 1fr));
     gap: 1vw;
     grid-auto-rows: auto;
     padding: 1vw;
@@ -52,12 +52,13 @@ footer{
     background-color: antiquewhite;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    width: 100%;
     
 }
 .card-body{
     display: flex;
     flex-direction: column;
-    padding:1vw;
+    
 }
 .card-body button{
     width: 100%;
@@ -68,7 +69,7 @@ footer{
 }
 .card-img{
     object-fit: cover;
-    height: 20vh;    
+    height: 40vh;    
     overflow: hidden;
     
     
@@ -103,6 +104,12 @@ aside li{
 }
 .text-menu{
 font-family: 'Cuprum', sans-serif;
+font-weight: 200;
+color: #d3d3d3;
+}
+.text-menu2{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
 }
 .text-title1{
     font-family: 'Open Sans', sans-serif;
@@ -118,6 +125,9 @@ font-family: 'Cuprum', sans-serif;
 .text-body{
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
+}
+span{
+    color: dimgrey;
 }
 button{
   font-family: 'Roboto', sans-serif;
