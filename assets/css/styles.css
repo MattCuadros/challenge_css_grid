@@ -283,7 +283,8 @@ footer h5{
 
 .iconos{
     float: right;
-    max-width: 10%;
+    width: 10%;
+    height: 10%;
     margin: 1%;
 }
 
@@ -309,4 +310,5 @@ footer a{
 
 footer img{
     width: 50%;
+    height: 50%;
 }
