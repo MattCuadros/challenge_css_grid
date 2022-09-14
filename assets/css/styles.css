@@ -18,6 +18,11 @@ navbar{
     grid-area: navbar;
     min-height: 10vh;
     padding: 2rem;
+    border-bottom: solid 2px #f5f3f4;
+    box-shadow: #161a1d 2px 8px 10px;
+    position: relative;
+    z-index: 4;
+    margin-bottom: 10px;
 }
 navbar img{
     max-width: 20%;
@@ -28,6 +33,15 @@ aside{
     min-height: 80vh;
     flex-direction: column;
     width: 15vw;
+    padding: 5vw;
+    border-right: solid #f1f2f3 3px;
+    border-bottom: solid #f1f2f3 3px;
+    box-shadow: #646161 10px 3px 5px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 10px;
 }
 aside a{
     text-decoration: none ;
@@ -249,6 +263,10 @@ footer{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    padding-top: 3vw;
+    padding-bottom: 2vw;
+    border: #646161 solid 2px;
+    box-shadow: #f1f3f4 -2px -2px 10px;
 
 }
 footer h5{
