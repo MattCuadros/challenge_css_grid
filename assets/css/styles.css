@@ -99,9 +99,9 @@ aside a{
 .icon-like:focus{
     
     color: #ba181b !important;
-    font-size: 35px;
-    top: 1px;
-    right: 0px;
+    font-size: 30px;
+    top: 10px;
+    right: 5px;
     z-index: 2;
      
  }
@@ -216,12 +216,8 @@ button{
     font-family: 'Roboto', sans-serif;
     background-color: #d3d3d3;
     color: #ba181b;
-    box-shadow: #000814 3px 3px 2px;
-    border-left: solid 1px #000814;
-    border-right: solid 1px #000814;
-    width: 90%;
-  }
-.d-flex{
+}
+.d-flex{    
     display: flex;
 }
 .justify-content-around{
@@ -253,6 +249,7 @@ footer{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+
 }
 footer h5{
     display: inline-block;
@@ -273,7 +270,6 @@ footer h5{
 }
 
 .copyright{
-    background-color: black;
     font-family: sans-serif;
     font-size: 1rem;
     color: white;
